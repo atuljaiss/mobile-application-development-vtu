@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="373dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="560dp"
+        android:text="@string/counter_application"
+        android:textSize="30sp" />
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="233dp"
+        android:layout_marginBottom="221dp"
+        android:text="START"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="233dp" />
+
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="221dp"
+        android:text="STOP" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="126dp"
+        android:layout_height="110dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="117dp"
+        android:layout_marginRight="117dp"
+        android:layout_marginBottom="409dp"
+        android:text="0"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="126dp"
+        android:layout_marginRight="126dp"
+        android:layout_marginBottom="134dp"
+        android:text="Reset" />
+</RelativeLayout>

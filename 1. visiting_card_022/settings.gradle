@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "visiting_card_022"
